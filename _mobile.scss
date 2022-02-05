@@ -1,0 +1,126 @@
+@media all and (max-width:768px) {
+    #nav--btns{
+       display: block;
+       .hamburger{
+           display: block;
+       }
+    }
+    nav{
+        z-index: 100;
+        .request-btn{
+            display: none;
+        }
+        ul{
+            position: absolute;
+            flex-direction: column;
+            background: white;
+            transform: translateY(-200%);
+            top: 6rem;
+            left: 0;
+            right: 0;
+            width: 80%;
+            max-width: 25rem;
+            margin: auto;
+            padding: 2rem;
+            z-index: 100;
+            border-radius: 0.6rem;
+            li{
+               a{
+                display: block;
+                padding: 10px;
+                &::after{
+                    height: 2px;
+                    bottom: 0;
+                }
+            } 
+            } 
+        }
+    }
+    .hero{
+        background-image: url(images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-position:0rem -2rem;
+        background-size: contain;
+        height: 53rem;
+        padding-bottom:4rem ;
+        img{
+            width: 90%;
+            min-width: 300px;
+            height: auto;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: -7rem;
+        }
+        article{
+            width: 100%;
+            text-align: center;
+            align-self: flex-end;
+        
+        }
+    }
+    .why-choose{
+        text-align: center;
+        padding: 4rem ;
+        p{
+            width: 100%;
+        }
+    }
+    .cards{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .card{
+        width: 100%;
+        margin-top: 2rem;
+        
+    }
+    .latest-articles{
+        text-align: center;
+        padding: 4rem;
+        h2{
+            margin: 0;
+        }
+    }
+    .articles{
+        flex-direction: column;
+        article{
+            text-align: left;
+            margin-top: 4rem;
+            width: 100%;
+            height: fit-content;
+            img{
+                height: auto;
+            }
+        }
+    }
+    .card--description{
+    padding:2rem 1rem;
+    }   
+    footer{
+        flex-direction: column;
+    }
+    .wraper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer--socials-ul{
+        margin-bottom: 2rem;
+       li{
+           margin: 0;
+           margin-inline: 10px;
+       }
+    }
+    .footer--nav-ul{
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+        ol{
+            margin: 0;
+        }
+    }
+    .footer--request-btn{
+        align-items: center;
+        margin-top: 2rem;
+    }
+}
