@@ -1,6 +1,15 @@
-[Demo wersji finalnej](https://angron-dev.github.io/Easy-bank-landing-page/)
+# Easy Bank landing page
 
-[Link do wyzwania](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+Project from Frontend Master
+
+## Technologies used
+* HTML
+* SCSS
+* JavaScript
+
+[Final version](https://angron-dev.github.io/Easy-bank-landing-page/)
+
+[Link to challenge](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
  
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
